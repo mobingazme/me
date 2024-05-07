@@ -9,7 +9,7 @@ import ButtonResume from '@/elements/ButtonResume';
 
 function Header() {
     return (
-        <div  className='bg-A w-full max-w-8xl h-28 md:h-20 flex flex-col md:flex md:flex-row justify-center md:justify-between items-center md:p-8 fixed z-50 shadow-lg '>
+        <div  className='bg-A w-full  h-28 md:h-20 flex flex-col md:flex md:flex-row justify-center md:justify-between items-center md:p-8 fixed z-50 shadow-lg '>
             <Image  className='animate__animated animate__fadeInRight animate__delay-2s' width={100} height={80} alt='logo' src='/images/logo-header.svg' />
             <div className='flex animate__animated animate__fadeInUp animate__delay-2s py-3 md:mr-20'>
                 <Link activeClass="active" to="abute" spy={true} smooth={true} offset={-70} duration={700}>

@@ -6,7 +6,7 @@ import SkillSlider from '../module/slider/SkillSlider'
 import Abute from '../module/Abute'
 function HomePage() {
   return (
-    <div className='bg-A'>
+    <div className='bg-A max-w-8xl'>
       <SectionOne />
       <Abute />
       <SkillSlider />
