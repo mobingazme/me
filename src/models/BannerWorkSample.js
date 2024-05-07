@@ -58,13 +58,7 @@ function BannerWorkSample() {
                         </div>
                     </Link>
                 </div>
-
             </div>
-
-
-
-
-
         </div>
     )
 }

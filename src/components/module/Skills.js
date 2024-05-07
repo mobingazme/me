@@ -16,7 +16,7 @@ function Skills() {
                         <p className='text-center md:text-start'> هدف من در آینده تبدیل شدن به یک <span className='font-bold  text-gradient'>Full Stack JavaScript Developer</span> است. من تمایل دارم تا با تسلط بر تکنولوژی‌های بک‌اند و فرانت‌اند، به طراحی و توسعه برنامه‌های وب پیچیده و کارآمد بپردازم.</p>
                     </div>
                 </div>
-                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" className='col-span-1 md:col-span-3  md:mr-20'>
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" className='col-span-1 md:col-span-3 '>
                     <SvgDeveloper />
                 </div>
             </div>
