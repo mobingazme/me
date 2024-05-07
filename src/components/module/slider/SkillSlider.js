@@ -3,7 +3,9 @@ import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Icon } from '@iconify/react';
-import { Autoplay } from 'swiper/modules';
+import { Autoplay,Grid } from 'swiper/modules';
+import './../textGradient.css'
+import './../BgGradient.css'
 
 
 // Import Swiper styles
@@ -11,6 +13,8 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/effect-fade';
+import 'swiper/css/grid';
+
 // import required modules
 
 const data = [
@@ -74,6 +78,47 @@ const data = [
 const SliderRight = ({ direction }) => {
     return (
         <Swiper
+        breakpoints={{
+            0: {
+                // width: 576,
+                slidesPerView: 2,
+                spaceBetween: 0
+            },
+            320: {
+                // width: 576,
+                slidesPerView: 3,
+                spaceBetween: 0
+            },
+            450: {
+                // width: 576,
+                slidesPerView: 4,
+                spaceBetween: 0
+            },
+            576: {
+                // width: 576,
+                slidesPerView: 4,
+                spaceBetween: 0
+            },
+            676: {
+                // width: 576,
+                slidesPerView: 5,
+                spaceBetween: 0
+            },
+            768: {
+                // width: 768,
+                slidesPerView: 6,
+                spaceBetween: 0
+            },
+            900: {
+                // width: 768,
+                slidesPerView: 7,
+                spaceBetween: 0
+            },
+            1148: {
+                // width: 768,
+                slidesPerView: 9,
+                spaceBetween: 0
+            }, }}
             dir="rtl"
             slidesPerView={8}
             spaceBetween={30}
@@ -83,15 +128,15 @@ const SliderRight = ({ direction }) => {
                 delay: 0,
                 disableOnInteraction: false,
             }}
-            modules={[Autoplay]}
+            modules={[Autoplay,Grid]}
             className="mySwiper"
             direction={direction}
         >
             {data.map((item) => (
-                <SwiperSlide data-aos="flip-up" className='mt-8' key={item.id}>
-                    <div className='bg-B hover:bg-D hover:font-bold ease-in transition-all transform hover:translate-y-[-10px] cursor-pointer duration-700 text-C hover:text-B duration-900 flex flex-col justify-center items-center p-4 rounded-full w-28'>
-                        <Icon className='w-12 h-12' icon={item.icon} />
-                        <h2 className='mt-3'>{item.title}</h2>
+                <SwiperSlide data-aos="flip-up" className='my-5' key={item.id}>
+                    <div className='bg-B hover:bg-D hover:font-bold shadow-lg ease-in shadow-C hover:shadow-D border hover:border-D border-C  transition-all transform hover:translate-y-[-10px] cursor-pointer duration-700 text-C hover:text-B duration-900 flex flex-col justify-center items-center p-4 rounded-full w-24 h-24'>
+                        <Icon className='w-12 h-12 ' icon={item.icon} />
+                        <h2 className='mt-1 text-sm'>{item.title}</h2>
                     </div>
                 </SwiperSlide>
             ))}
@@ -102,6 +147,47 @@ const SliderRight = ({ direction }) => {
 const Sliderleft = ({ direction }) => {
     return (
         <Swiper
+        breakpoints={{
+            0: {
+                // width: 576,
+                slidesPerView: 2,
+                spaceBetween: 0
+            },
+            320: {
+                // width: 576,
+                slidesPerView: 3,
+                spaceBetween: 0
+            },
+            450: {
+                // width: 576,
+                slidesPerView: 4,
+                spaceBetween: 0
+            },
+            576: {
+                // width: 576,
+                slidesPerView: 4,
+                spaceBetween: 0
+            },
+            676: {
+                // width: 576,
+                slidesPerView: 5,
+                spaceBetween: 0
+            },
+            768: {
+                // width: 768,
+                slidesPerView: 6,
+                spaceBetween: 0
+            },
+            900: {
+                // width: 768,
+                slidesPerView: 7,
+                spaceBetween: 0
+            },
+            1148: {
+                // width: 768,
+                slidesPerView: 9,
+                spaceBetween: 0
+            }, }}
             dir="ltr"
             slidesPerView={8}
             spaceBetween={30}
@@ -111,15 +197,15 @@ const Sliderleft = ({ direction }) => {
                 delay: 0,
                 disableOnInteraction: false,
             }}
-            modules={[Autoplay]}
+            modules={[Autoplay,Grid]}
             className="mySwiper"
             direction={direction}
         >
             {data.map((item) => (
-                <SwiperSlide data-aos="flip-up" className='py-6' key={item.id}>
-                    <div className='bg-B hover:bg-D hover:font-bold shadow-2xl ease-in transition-all transform hover:translate-y-[-10px] cursor-pointer duration-700 text-C hover:text-B duration-900 flex flex-col justify-center items-center p-4 rounded-full w-28'>
+                <SwiperSlide data-aos="flip-up" className='my-6' key={item.id}>
+                    <div className='bg-B hover:bg-D hover:font-bold shadow-lg ease-in transition-all transform border shadow-C hover:shadow-D border-C hover:border-D hover:translate-y-[-10px] cursor-pointer duration-700 text-C hover:text-B duration-900 flex flex-col justify-center items-center p-4 rounded-full w-24 h-24'>
                         <Icon className='w-12 h-12' icon={item.icon} />
-                        <h2 className='mt-3'>{item.title}</h2>
+                        <h2 className='mt-1 text-sm'>{item.title}</h2>
                     </div>
                 </SwiperSlide>
             ))}
@@ -132,7 +218,7 @@ const Sliderleft = ({ direction }) => {
 const SkillSlider = () => {
 
     return (
-        <div className='my-10 px-10'>
+        <div className='md:my-10 my-4 px-1 md:px-10'>
             <SliderRight />
             <Sliderleft />
         </div>

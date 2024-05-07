@@ -1,5 +1,8 @@
+"use client"
 import React from 'react';
 import { Link } from 'react-scroll';
+import './../components/module/BgGradient.css'
+
 
 function ContactButton() {
   return (
@@ -10,9 +13,10 @@ function ContactButton() {
       smooth={true}
       duration={500}
     >
-      <button className='bg-gradient-to-l font-bold hover:bg-gradient-to-r shadow-mdshadow-D duration-700   ease-in transition-all  from-[#fecd1a] to-[#ffaf29] w-40 h-14 rounded-xl text-black text-xl hover:text-2xl'>ارتباط با من</button>
+      <button className=' font-bold  bg-gradient shadow-sm shadow-D duration-700  transform ease-in transition-all    w-60 md:w-32 h-12 rounded-xl text-black  hover:text-lg'>ارتباط با من</button>
     </Link>
   );
 }
 
 export default ContactButton;
+//jobvision.ir/cv/28896610-163929

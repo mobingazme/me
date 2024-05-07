@@ -4,7 +4,7 @@ import animationData from '/public/animations/AnimationComp.json'; // مسیر �
 
 const SvgDeveloper2 = () => {
   return (
-    <div className='w-[600px]'>
+    <div className=' p-1 md:p-0 md:w-[600px]'>
       <Lottie animationData={animationData} />
     </div>
   );

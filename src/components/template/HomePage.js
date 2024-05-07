@@ -4,8 +4,6 @@ import Skills from '../module/Skills'
 import WorkSamples from '../module/WorkSamples'
 import SkillSlider from '../module/slider/SkillSlider'
 import Abute from '../module/Abute'
-import MyPage from '../module/slider/SkillSlider'
-
 function HomePage() {
   return (
     <div className='bg-A'>
@@ -15,7 +13,6 @@ function HomePage() {
       <Skills />
       <SkillSlider />
       <WorkSamples />
-    
     </div>
   )
 }

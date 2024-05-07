@@ -4,7 +4,7 @@ import animationData from '/public/animations/AnimationProgramer1.json'; // مس
 
 const SvgDeveloper = () => {
   return (
-    <div className='w-[600px] '>
+    <div className='  p-1 md:p-5 md:w-[600px] '>
       <Lottie animationData={animationData} />
     </div>
   );
