@@ -8,7 +8,7 @@ import './../module/textGradient.css'
 
 function Footer() {
   return (
-    <div id="footer" className="footer bg-B text-white text-center p-1 grid col-span-1  md:flex  md:justify-center items-center shadow-lg">
+    <div id="footer" className="footer bg-B text-white text-center  p-1 grid col-span-1  md:flex  md:justify-center items-center shadow-lg">
 
       <div className='md:p-10 p-8'>
         <div>

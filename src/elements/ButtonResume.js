@@ -11,7 +11,7 @@ function ButtonResume() {
 
   const handleDownload = () => {
     setLoading(true);
-    const fileURL = '/public/resume/مبین_گزمه-fa-1-7.pdf';
+    const fileURL = '/resume/مبین_گزمه-fa-1-7.pdf';
     const a = document.createElement('a');
     a.href = fileURL;
     a.download = 'مبین_گزمه-fa-1.pdf';
