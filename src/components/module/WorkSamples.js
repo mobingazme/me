@@ -12,8 +12,8 @@ function WorkSamples() {
                 </div>
                 <div className='md:col-span-3' >
                     <h6 data-aos="fade-up" data-aos-easing="ease-in-sine" className='text-gradient'>_نمونه کار ها</h6>
-                    <h2 data-aos="fade-up"   data-aos-easing="ease-in-sine" className='md:text-5xl text-2xl font-bold my-5'>سفری از یادگیری تا پیاده‌سازی در فرانت‌اند</h2>
-                    <p className='text-center pb-2 md:pb-0 md:text-start' data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-sine">علی‌رغم اینکه دوران آموزشی ام را تازه پشت سر گذاشته‌ام، اما تلاش کرده‌ام که با استفاده از آخرین فناوری‌ها و کتابخانه‌ها در زمینه برنامه‌نویسی فرانت‌اند، پروژه‌هایی را به تنهایی و یا در تیم‌های کوچک به انجام برسانم. این نمونه کارها، شاید محدود باشند، اما بازتاب‌دهنده توانایی‌ام در یادگیری سریع و کاربرد دانش فنی در موقعیت‌های واقعی است. هر پروژه برای من فرصتی بوده است تا مهارت‌هایم را تقویت کنم و درک عمیق‌تری از توسعه وب به دست آورم.</p>
+                    <h2 data-aos="fade-up"   data-aos-easing="ease-in-sine" className='md:text-5xl text-2xl font-bold my-5 text-white'>سفری از یادگیری تا پیاده‌سازی در فرانت‌اند</h2>
+                    <p className='text-center pb-2 md:pb-0 md:text-start text-white' data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-sine">علی‌رغم اینکه دوران آموزشی ام را تازه پشت سر گذاشته‌ام، اما تلاش کرده‌ام که با استفاده از آخرین فناوری‌ها و کتابخانه‌ها در زمینه برنامه‌نویسی فرانت‌اند، پروژه‌هایی را به تنهایی و یا در تیم‌های کوچک به انجام برسانم. این نمونه کارها، شاید محدود باشند، اما بازتاب‌دهنده توانایی‌ام در یادگیری سریع و کاربرد دانش فنی در موقعیت‌های واقعی است. هر پروژه برای من فرصتی بوده است تا مهارت‌هایم را تقویت کنم و درک عمیق‌تری از توسعه وب به دست آورم.</p>
                 </div>
             </div>
             <div  className='pb-10'>
