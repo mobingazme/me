@@ -7,7 +7,7 @@ function WorkSamples() {
     return (
         <div id="workSamples" className=' md:px-12  '>
             <div className='grid grid-cols-1 md:grid-cols-5 px-4 items-center '>
-                <div data-aos="zoom-in-left" data-aos-offset="300" data-aos-easing="ease-in-sine" className='md:col-span-2'>
+                <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" className='md:col-span-2'>
                     <SvgDeveloper4 />
                 </div>
                 <div className='md:col-span-3' >

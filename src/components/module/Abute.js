@@ -9,7 +9,7 @@ import './textGradient.css';
 function About() {
     return (
         <div id="abute" className='bg-A   md:my-10 md:p-10 grid grid-cols-1 justify-center  md:grid-cols-5 items-center md:rounded-lg '>
-            <div data-aos="zoom-in-left" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-sine" className='md:col-span-2'>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-sine" className='md:col-span-2'>
                 <SvgDeveloper3 />
             </div>
             <div className='md:col-span-3 bg-B p-5 w-full rounded-xl shadow-lg'>
