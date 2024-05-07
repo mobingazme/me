@@ -19,7 +19,7 @@ function Header() {
                     <h4 className=' hover:text-lg font-bold text-gradient duration-600 ease-in transition-all transform  mx-3   cursor-pointer'>نمونه کار ها</h4>
                 </Link>
                 <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-70} duration={700}>
-                    <h4 className=' hover:text-lg font-bold text-gradient duration-300 ease-in transition-all  transform      cursor-pointer'>مهارت هایه من</h4>
+                    <h4 className=' hover:text-lg font-bold text-gradient duration-300 ease-in transition-all  transform      cursor-pointer'>مهارت های من</h4>
                 </Link>
             </div>
             <div className='animate__animated animate__fadeInLeft animate__delay-2s hidden md:flex px-2'>

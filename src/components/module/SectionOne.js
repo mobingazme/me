@@ -10,8 +10,8 @@ function SectionOne() {
         <div id='1' className=' w-full grid grid-cols-1 md:grid-cols-3 items-center  bg-B shadow-xl pt-40 md:pt-5'>
             <div className='col-span-1 p-4 md:p-10'>
                 <h6 data-aos="fade-up" className='text-gradient animate__animated animate__fadeInUp animate__delay-1s' >_معرفی</h6>
-                <h2 data-aos="fade-up" data-aos-duration="2000" className='text-white pt-4 md:pt-0 font-bold text-4xl md:text-7xl  animate__animated animate__fadeInUp animate__delay-2s'>سلام<br /> من <span className='text-gradient'> مبین</span> <br className='hidden md:flex' />هستم!</h2>
-                <p data-aos="fade-up" data-aos-duration="3000" className='md:text-xl text-center md:text-start my-3'>به وبسایت شخصی من خوش آمدید. من یک توسعه‌دهنده وب. فرانت‌اند هستم و مشتاقم تا تجربیات و مهارت‌هایم را با شما به اشتراک بگذارم.</p>
+                <h2 data-aos="fade-up" data-aos-duration="2000" className='text-white pt-4 md:pt-0 font-bold text-4xl md:text-7xl  animate__animated animate__fadeInUp animate__delay-2s '>سلام<br /> من <span className='text-gradient'> مبین</span> <br className='hidden md:flex' />هستم!</h2>
+                <p data-aos="fade-up" data-aos-duration="3000" className='md:text-xl text-center md:text-start my-3 text-white'>به وبسایت شخصی من خوش آمدید. من یک توسعه‌دهنده وب. فرانت‌اند هستم و مشتاقم تا تجربیات و مهارت‌هایم را با شما به اشتراک بگذارم.</p>
                 <div className=' flex justify-center md:justify-start' data-aos="fade-up" data-aos-duration="4000">
                     <ContactButten />
                 </div>
