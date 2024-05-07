@@ -5,7 +5,7 @@ import './textGradient.css';
 
 function Skills() {
     return (
-        <div id='skills'  className='md:px-12 px-4 '>
+        <div id='skills'  className='md:px-12 px-4  py-3 '>
             <div className='grid grid-cols-1 md:grid-cols-5 items-center  '>
                 <div  className='col-span-1 md:col-span-2' >
                     <h6  data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" className='text-gradient '>_مهارت های من</h6>
